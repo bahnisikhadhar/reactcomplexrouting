@@ -6,13 +6,12 @@ import Sidebar from './Sidebar';
 
 export default function SideMain() {
   return (
-    <div style={{display:"flex"}}>
-        <Sidebar/>
-    
-     <div>
-     <Header2/>
-    <Outlet/>
-    </div>
+    <div style={{ display: "flex" }}>
+      <Sidebar />
+      <div>
+        <Header2 />
+        <Outlet />
+      </div>
     </div>
   )
 }

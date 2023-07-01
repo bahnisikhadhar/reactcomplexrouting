@@ -42,6 +42,7 @@ const router = createBrowserRouter(
       }
     ]
   },
+
   {
     path: "/sidemain",
     element: <SideMain/>,
@@ -49,10 +50,6 @@ const router = createBrowserRouter(
       {
         path:"/sidemain",
         element: <Home2/>
-      },
-      {
-        path: "/sidemain/contact",
-        element: <Contact/>,
       },
       {
         path:"/sidemain/sideabout",
