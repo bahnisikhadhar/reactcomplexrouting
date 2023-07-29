@@ -56,6 +56,10 @@ const router = createBrowserRouter(
         element: <SidebarAbout/>,
       },
       {
+        path:"/sidemain/about",
+        element: <About/>,
+      },
+      {
         path:"/sidemain/sidedetails",
         element: <SidebarDetails/>,
       }
