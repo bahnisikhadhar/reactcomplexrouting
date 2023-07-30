@@ -1,0 +1,62 @@
+.App {
+    position: relative;
+    width: 100%;
+  }
+  
+  .stepwrapper_col1 {
+    padding: 0rem 7rem;
+  }
+  
+  .stepwrapper_col {
+    padding: 3rem 7rem;
+  }
+  
+  .circle {
+    width: 29px;
+    height: 29px;
+    line-height: 25px;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border: 2px solid #8DC63F;
+    cursor: pointer;
+    padding-left: 5px;
+  }
+  
+  .stepWrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .line {
+    height: 3px;
+    background-color: #8DC63F;
+    width: 95%;
+    position: absolute;
+    top: 1rem;
+    z-index: -2;
+  }
+  
+  .selected .circle {
+    background-color: #8DC63F;
+    color: white;
+    border-color: #8DC63F;
+  }
+  
+  .primaryButton {
+    padding: 10px 25px;
+    background-color: #8DC63F;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .primaryButton:disabled {
+    opacity: 0.5;
+  }

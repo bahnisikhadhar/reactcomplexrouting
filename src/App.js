@@ -9,6 +9,7 @@ import Home2 from './Home2';
 import Contact from './Contact';
 import SidebarAbout from './SidebarAbout';
 import SidebarDetails from './SidebarDetails';
+import Stepper from './stepper/Stepper';
 
 const router = createBrowserRouter(
   // createRoutesFromElements(
@@ -39,6 +40,10 @@ const router = createBrowserRouter(
       {
         path:"/about",
         element: <About/>,
+      },
+      {
+        path:"/stepper",
+        element: <Stepper/>,
       }
     ]
   },

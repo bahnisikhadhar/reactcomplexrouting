@@ -8,6 +8,7 @@ export default function Header1() {
       <ul>
        <Link to="/about"> <li>About</li></Link>
        <Link to="/"><li>Home</li></Link>
+       <Link to="/stepper"><li>Stepper</li></Link>
       </ul>
     </div>
   )
