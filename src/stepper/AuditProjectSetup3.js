@@ -25,6 +25,7 @@ export default function AuditProjectSetup3() {
   return (
     <div>
          <h1>Project setup 3</h1>
+		 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, praesentium.</p>
         <div className='project_setup_btn_box'>
 				<div className='project_setup_btn_box_left'>
 					{currentStep > 0 &&
