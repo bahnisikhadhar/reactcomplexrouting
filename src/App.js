@@ -6,7 +6,6 @@ import Home from './Home';
 import About from './About';
 import SideMain from './SideMain';
 import Home2 from './Home2';
-import Contact from './Contact';
 import SidebarAbout from './SidebarAbout';
 import SidebarDetails from './SidebarDetails';
 import Stepper from './stepper/Stepper';
@@ -14,6 +13,7 @@ import AuditProjectSetup1 from './stepper/AuditProjectSetup1';
 import AuditProjectSetup2 from './stepper/AuditProjectSetup2';
 import AuditProjectSetup3 from './stepper/AuditProjectSetup3';
 import AuditProjectSetup4 from './stepper/AuditProjectSetup4';
+import Contact from './Contact';
 
 const router = createBrowserRouter(
   // createRoutesFromElements(
