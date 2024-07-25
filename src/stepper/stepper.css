@@ -5,6 +5,7 @@
   
   .stepwrapper_col1 {
     padding: 0rem 7rem;
+    margin-top: 5rem;
   }
   
   .stepwrapper_col {
@@ -60,3 +61,13 @@
   .primaryButton:disabled {
     opacity: 0.5;
   }
+
+  .create_ac_btn{
+    background-color: #8DC63F;
+    padding: .5rem 1.5rem;
+    margin: 2rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  
